@@ -1,0 +1,73 @@
+.rounded-t-5 {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+ 
+}
+.card mb-3{
+  margin-top: 50px;
+  
+}
+
+@media (min-width: 992px) {
+  .rounded-tr-lg-0 {
+    border-top-right-radius: 0;
+  }
+
+  .rounded-bl-lg-5 {
+    border-bottom-left-radius: 0.5rem;
+  }
+}
+.register{
+  margin-top: 10px;
+margin-left: 255px;
+}
+
+
+.register a{
+  color: #4158d0;
+  text-decoration: none;
+}
+
+.register a:hover{
+  text-decoration: underline;
+}
+.text_input{
+  margin-top: 1.2rem;
+  font-family: 'Montserrat regular';
+  font-size: 20px;
+  border: none;
+  width: 80%;
+}
+
+.btn{
+  text-align: center;
+  margin-top: 10px;
+  width: 165px;
+  height: 60px;
+  border-radius: 30px;
+  background: #4158d0;
+  border: none;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-left: 270px;
+
+  margin-right:450px;
+  cursor: pointer;
+  
+}
+.link{
+  color: #0E4579;
+  font-family: 'Montserrat light';
+  font-size: 18px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+caption{
+  font-size: 35px;
+  margin-left: 250px;
+  color: black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}

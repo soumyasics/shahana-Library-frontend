@@ -1,0 +1,106 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+} 
+ .banner6{
+    width: 100%;
+    height: 100vh;
+     background-image: url("images/Books.webp"); 
+     background-size: 200px;
+     background-repeat: no-repeat;
+     background-image: linear-gradient(rgba(0,0,0,0.75)rgba(0,0,0)); 
+   
+} 
+.navbar10{
+    
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    margin-left: 120px;
+    
+}
+.navbar10 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+   
+  position: relative;
+} 
+ .navbar10 ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+ 
+} 
+ .navbar10 ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar10 ul li:hover::after{
+    width: 100%;
+}
+.content30{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+}
+.content30 h1{
+    font-size: 70px;
+    margin-top: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.content30 p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button{
+    width:200px;
+    padding: 15px 0 ;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border:2px solid #009688ba;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+
+
+}
+.photo{
+    background-image: url("images/d18ke2w-00ef9565-31ed-4dff-808b-1d445dbbfc1e.jpg");
+    background-size: cover;
+} 
+ 

@@ -1,0 +1,43 @@
+
+.addingbook{
+    background-color: #fff;
+    opacity: 0.9;
+    border-radius: 10px;
+    margin: 20px 0px 0px 250px;
+    box-shadow: 20px 20px 20px 20px;
+    padding: 20px;
+
+   
+
+}
+.addbook{
+    text-align: center;
+    font-weight: bold;
+    color: #A96131;
+}
+.form-group4{
+    margin-bottom: 20px;
+}
+ .form-group4 label{
+    font-weight: bold;
+
+    color: black;
+}
+
+.addbtn{
+    background-color: #A96131;
+    width: 50%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    
+
+} 
+
+   
+ 
+.section2{
+          
+    background-image: url("images/library-zoom-background-1920-x-1080-3s03jlmtcehfuru5.jpg");
+              }
+        

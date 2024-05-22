@@ -1,0 +1,108 @@
+ 
+
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800|Poppins&display=swap');
+ *{
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+} 
+ /* body{
+  font-size: 1.7rem;
+  font-family:sans-serif;
+ background: greenyellow; 
+  color: #ececec;
+  padding: 4rem;
+}   */
+
+.all-products11{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+ 
+ .product11{
+  overflow: hidden;
+background: #ffffff;
+color: #21201e;
+text-align: center;
+width: 285px;
+height: 450px;
+padding: 2rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 1.2rem;
+margin: 2rem;
+} 
+.product11:hover img{
+  scale: 1.1;
+}.product1:hover{
+  box-shadow: 5px 15px 25px #eeeeee;
+}
+.product11 img{
+  height: 270px;
+  padding: 1rem;
+  transition: all 0.3s;
+
+}
+
+ .product-info11 button {
+  height: 50px; 
+  margin: 5px;
+  width: 100px;
+  background: gray;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Consolas, Courier New, monospace;
+  border: solid #404c5d 1px;
+  font-size: 16px;
+  color: rgb(161, 161, 161);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #2e2d2d, #212121);
+  -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+  box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+}
+
+.product-info11 button:hover {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  color: black;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.product-info11 button:active {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+.productdes11{
+  font-size: 9px;
+}
+ .products11 h1{
+  text-align: center;
+  font-size: 50px;
+  font-family:fantasy;
+  text-decoration: underline;
+  color:black;
+  margin-top: 20px;
+
+
+}
+.product-title11{
+  font-size: 20px;
+
+} 

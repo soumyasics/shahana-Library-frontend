@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header2{
+    background-color: #000;
+    color:#fff;
+    width: 100%;
+}
+
+header2 h2{
+    font-size: 30px;
+}
+header2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    padding: 20px 0;
+}.headerpicture{
+    background-image: url('images/360_F_574706059_s4gBUvmVNHeD0XYkVra822kli7NbWsgt.jpg');
+    background-size: cover;
+}
+.headerpicture .logo{
+    color: blue;
+}
+.headerpicture a{
+    color: blue;
+}
